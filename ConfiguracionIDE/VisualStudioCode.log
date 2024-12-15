@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.ejemplo:mi-proyecto >----------------------
+[INFO] Building mi-proyecto 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ mi-proyecto ---
+[INFO] Deleting directory /ruta/al/proyecto/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ mi-proyecto ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ mi-proyecto ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /ruta/al/proyecto/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ mi-proyecto ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /ruta/al/proyecto/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ mi-proyecto ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ mi-proyecto ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ mi-proyecto ---
+[INFO] Building jar: /ruta/al/proyecto/target/mi-proyecto-1.0.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ mi-proyecto ---
+[INFO] Installing /ruta/al/proyecto/target/mi-proyecto-1.0.jar to /ruta/.m2/repository/com/ejemplo/mi-proyecto/1.0/mi-proyecto-1.0.jar
+[INFO] Installing /ruta/al/proyecto/pom.xml to /ruta/.m2/repository/com/ejemplo/mi-proyecto/1.0/mi-proyecto-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.528 s
+[INFO] Finished at: 2023-01-01T12:34:56Z
+[INFO] ------------------------------------------------------------------------
